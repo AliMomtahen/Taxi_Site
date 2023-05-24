@@ -1,0 +1,175 @@
+/* Ali Momtahen*/
+
+body {
+    background-color: rgb(120, 193, 241);
+    position: relative;
+}
+
+.button_mode:link , :visited {
+    display: block;
+    color: blue;
+    text-align: center;
+    background-color: aqua;
+    width: 150px;
+    top: 40px;
+    padding: 50px;
+
+    max-height: 50;
+    min-height: 48;
+    border: 1px solid blue;
+    margin: auto;
+    margin-top: 3px;
+    font-size:large;
+    border-radius: 70px;
+    text-decoration: none;
+    position: relative;
+
+    
+}
+.button_mode:hover{
+    background-color: rgb(78, 77, 172);
+}
+
+
+.dd{
+    color: blueviolet;
+}
+
+
+
+form {
+    width: 20%;
+    height: 200px;
+    margin: auto;
+}
+
+
+.menu {
+    width: 100%;
+    text-decoration: none;
+    display: inline-block;
+    background-color: aqua;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    
+    
+    
+    color: blue;
+    text-align: center;
+}
+.menu:hover{
+    background-color: rgb(78, 77, 172);
+}
+
+.menu_div{
+    border: 2px solid blue;
+    /*border-left: 0px;*/
+    width: 24%;
+    height: 10;
+    margin-left: 1px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 70%;
+    margin: auto;
+    
+    border-collapse: collapse;
+    border:1px solid blue;
+}
+
+th {
+    color: blue;
+    border: 2px solid blue;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: center;
+    background-color: rgb(194, 255, 255);
+}
+
+tr {
+    
+    margin-top: 8px;
+    border: 2px solid blue;
+    background-color: aqua;
+}
+
+td {
+    color: blue;
+    border: 2px solid blue;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    text-align: center;
+}
+
+.td_hover:hover {
+    background-color: greenyellow;
+}
+
+
+.animation_mode {
+    display: block;
+    position: relative;
+    margin: auto;
+    top: 60px;
+    margin-bottom: 30px;
+    
+    animation-name: anim;
+    animation-duration: 10s;
+    animation-iteration-count: 70;
+    animation-timing-function: linear;
+}
+
+.request {
+    width: 100%;
+    height: 40px;
+    color: red;
+    margin-top: 10px;
+    background-color: rgb(7, 7, 122);
+    font-size: large;
+}
+.request:hover {
+    background-color: rgb(67, 197, 67);
+}
+
+.cancle {
+    width: 50%;
+    top: 10px; 
+    margin: auto; 
+    margin-top: 10px;
+    font-size: large;
+    background-color :rgb(240, 71, 71);
+    height: 40px;
+}
+.cancle:hover {
+    background-color: rgb(255, 0, 0);
+}
+
+.login_mode {
+    width: 100%;
+    top: 100px; 
+    margin: auto; 
+    margin-top: 10px;
+    font-size: large;
+    background-color :rgb(53, 119, 194);
+    height: 40px;
+}
+.login_mode:hover {
+    background-color: rgb(78, 77, 172);
+}
+
+
+h2 {
+    text-align: center;
+    color: rgb(61, 61, 236);
+}
+@keyframes anim{
+    0%{ left: -300px; }
+    50%{left :300px;}
+    100% {left : -300px;}
+}
+
+
+

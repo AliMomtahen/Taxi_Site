@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="/classes.css">
+    
+</head>
+<body>
+    <h1 style="color: rgb(61, 61, 236);font-size: 60px; margin: 4px;" >UTAXI!</h1>
+    <div style="width: 100%; border-radius: 7px;">
+        <div class="menu_div"  ><a class="menu" href="/">HOME</a></div
+        ><div  class="menu_div"><a class="menu" href="/signuppage">Signup</a></div
+        ><div  class="menu_div"><a class="menu" href="/request">Request Trip</a></div
+        ><div          class="menu_div"><a class="menu" href="/login">Trip List</a></div>
+    </div>
+
+    <div>
+        <h2>Request Trip</h2>
+        <form method="post"  action="/request">
+            <input type="text" name="username" placeholder="Username" class="login_mode">
+            <input type="text" name="origin" placeholder="Orign" class="login_mode">
+            <input type="text" name="destination" placeholder="Destination" class="login_mode">
+            <div style="width: 100%; margin-top: 10px;"><label style="width: 90%;">in hurry?</label>
+            <input type="checkbox" name="in_hurry" value="yes"></div>
+            
+            <button type="submit" name="request" value="no" class="login_mode" 
+                style="width: 40%;">Calculate cost</button>
+            <button type="submit" name="request" value="yes" class="request">Request</button>
+        </form>
+    </div>
+  <img src="/taxi2.png" style="animation-delay: 1s; margin-top: 100px;" class="animation_mode" >
+
+    <h2 style="text-align: center; margin-top: 200px;">Cancle trip</h2>
+    <form action="/cancle" method="post">
+        <input type="text" name="username" placeholder="Username" class="login_mode">
+        <input type="text" name="id" placeholder="Id" class="login_mode">
+        <button type="submit" class="cancle">Cancle trip</button>
+    </form>
+    </body>
+
+</body>
+</html>
